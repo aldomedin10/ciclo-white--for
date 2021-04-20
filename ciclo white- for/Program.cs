@@ -18,15 +18,21 @@ namespace ciclo_white__for
             //parte 3 aumento o decrementooo
 
             int tabla;
-            int i = 1; //parte1
+            //int i = 1; //parte1
+
             Console.WriteLine("ingrese el numero de la tabla que quiere calcular");
             tabla = int.Parse(Console.ReadLine());
 
             //parte2
-            while(i <= 10){
+            //while(i <= 10){
+             //   Console.WriteLine("" + tabla * i);
+             //   i++; //parte 3
+             //   }
+
+            for(int i=1; i<=10; i++)
+            {
                 Console.WriteLine("" + tabla * i);
-                i++; //parte 3
-                }
+            }
             Console.ReadKey();
 
 
